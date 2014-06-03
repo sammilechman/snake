@@ -1,0 +1,14 @@
+#snakeBoard {
+  height: 500px;
+  width: 500px;
+  background-color: red;
+}
+
+.tile {
+  float: left;
+  border: 1px solid gray;
+  height: 48px;
+  width: 48px;
+  background-color: black;
+  margin: 0;
+}
