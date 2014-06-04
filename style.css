@@ -1,7 +1,30 @@
+body {
+  text-align: center;
+  font-family: "Verdana";
+}
+
+html {
+  background: url('snake.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h3 {
+  background-color: lightgray;
+}
+
+h4 {
+  background-color: lightgray;
+}
+
 #snakeBoard {
   height: 500px;
   width: 500px;
-  background-color: red;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tile {
@@ -9,6 +32,30 @@
   border: 1px solid gray;
   height: 48px;
   width: 48px;
-  background-color: black;
   margin: 0;
+}
+
+.off {
+  background-color: black;
+}
+
+.on {
+  background-color: gray;
+}
+
+.food {
+  background-color: yellow !important;
+}
+
+#play-button-div {
+  height: 40px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#play {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
